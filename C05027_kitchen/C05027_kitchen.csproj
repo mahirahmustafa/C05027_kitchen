@@ -43,6 +43,34 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -67,6 +95,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Site1.Master" />
+    <Content Include="images\debug.log" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,18 +108,189 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Cart.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="css\bootstrap1.css" />
+    <Content Include="css\bootstrap2.css" />
+    <Content Include="css\bootstrapindexpage.css" />
+    <Content Include="css\indexmain.css" />
+    <Content Include="css\indexslider.css" />
+    <Content Include="Gallery.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="images\0307960_PE427952_S3.JPG" />
+    <Content Include="images\0324893_PE517257_S3.JPG" />
+    <Content Include="images\0324895_PE517255_S3.JPG" />
+    <Content Include="images\0324901_PE517248_S3.JPG" />
+    <Content Include="images\0336830_PE528022_S3.JPG" />
+    <Content Include="images\0340632_PE527646_S3.JPG" />
+    <Content Include="images\0457598_PE605377_S3.JPG" />
+    <Content Include="images\1013725_Brand-tiles_Hyundai_750X375._V527885406_.jpg" />
+    <Content Include="images\1340x560_chefkitchen._V278101525_.jpg" />
+    <Content Include="images\1340x560_recipe._V278101525_.jpg" />
+    <Content Include="images\1340x762_foodprocessor._V277978026_.jpg" />
+    <Content Include="images\1340x762_ricecooker._V277978026_.jpg" />
+    <Content Include="images\1340x777_mixergrinders._V277997646_.jpg" />
+    <Content Include="images\1998.jpg" />
+    <Content Include="images\2017-SBF-Appliances-hero.jpg" />
+    <Content Include="images\20171_nkpp10a_03_pe365861.jpg" />
+    <Content Include="images\2136.jpg" />
+    <Content Include="images\24.jpg" />
+    <Content Include="images\4866.jpg" />
+    <Content Include="images\54dacad0N6f9be9d1.jpg" />
+    <Content Include="images\6ad9ae8a-5a78-4b4b-8f3f-242ab731d98d_1000.jpg" />
+    <Content Include="images\7596.jpg" />
+    <Content Include="images\aegbrands.PNG" />
+    <Content Include="images\arrow-p.png" />
+    <Content Include="images\arrow-pleft.png" />
+    <Content Include="images\background.jpg" />
+    <Content Include="images\banana-slicer-cutter-250x250.jpg" />
+    <Content Include="images\bg.png" />
+    <Content Include="images\blancobrands.PNG" />
+    <Content Include="images\bullet-mixer-500x500.jpg" />
+    <Content Include="images\cart.png" />
+    <Content Include="images\chef-multi-cooker-250x250.jpg" />
+    <Content Include="images\chop2pot_lrg_grn_co1_1.jpg" />
+    <Content Include="images\cutlery-set-250x250.jpg" />
+    <Content Include="images\designer-lunch-box-250x250.jpg" />
+    <Content Include="images\Dispatcher.jpg" />
+    <Content Include="images\download %281%29.png" />
+    <Content Include="images\download.jpg" />
+    <Content Include="images\download.png" />
+    <Content Include="images\electrical-tandoor-250x250.jpg" />
+    <Content Include="images\elevate-4pc-kitchen-tool-set-multi-co1_1.jpg" />
+    <Content Include="images\elevate-knives---100-collection---group-shot-shadow_1.jpg" />
+    <Content Include="images\ez-egg-cracker-250x250.jpg" />
+    <Content Include="images\fb.png" />
+    <Content Include="images\fc213fbf-8f00-422d-84d7-ce05caf6ba37_145.jpg" />
+    <Content Include="images\freezer.jpg" />
+    <Content Include="images\fy17_mipl_kitchen_sale_520x400.jpg" />
+    <Content Include="images\gotop.png" />
+    <Content Include="images\goup.jpg" />
+    <Content Include="images\H17435-1-0182-nhVD.jpg" />
+    <Content Include="images\home-collection-cafe-large.jpg" />
+    <Content Include="images\home-collection-monogram-large.jpg" />
+    <Content Include="images\home-collection-profile-large.jpg" />
+    <Content Include="images\home_dishwashers.jpg" />
+    <Content Include="images\home_img_newoven.jpg" />
+    <Content Include="images\home_microwaves.jpg" />
+    <Content Include="images\home_moreproducts.jpg" />
+    <Content Include="images\home_ranges.jpg" />
+    <Content Include="images\home_refrigerator.jpg" />
+    <Content Include="images\home_washers.jpg" />
+    <Content Include="images\images.jpg" />
+    <Content Include="images\images.png" />
+    <Content Include="images\index.jpg" />
+    <Content Include="images\jj_m-cuisine_popcornmaker2pk_45018_co1.jpg" />
+    <Content Include="images\jj_surface_soappump_85113_co1.jpg" />
+    <Content Include="images\juicer-mixer-grinder-250x250.jpg" />
+    <Content Include="images\Kitchen Appliances.html" />
+    <Content Include="images\kitchen-appliances-banner.jpg" />
+    <Content Include="images\kitchen-beauteous-kitchen-appliances-.jpg" />
+    <Content Include="images\kitchenicon.png" />
+    <Content Include="images\line_bar.png" />
+    <Content Include="images\luftig-exhaust-hood__0460198_PE606542_S4.JPG" />
+    <Content Include="images\luftig-exhaust-hood__0460203_PE606546_S4.JPG" />
+    <Content Include="images\neffbrands.PNG" />
+    <Content Include="images\nest_9_plus_co1_1.jpg" />
+    <Content Include="images\PD17-KP-11.jpg" />
+    <Content Include="images\PD17-KP-1m.jpg" />
+    <Content Include="images\pizza-maker-250x250.jpg" />
+    <Content Include="images\popcorn-maker-250x250.jpg" />
+    <Content Include="images\product_landing_banner_refrigerators_2x.jpg" />
+    <Content Include="images\refrigerators-12g.jpg" />
+    <Content Include="images\sale.jpg" />
+    <Content Include="images\sandwich-maker-250x250.jpg" />
+    <Content Include="images\shiping.png" />
+    <Content Include="images\skype.png" />
+    <Content Include="images\small-appliances-12g.jpg" />
+    <Content Include="images\soapy_sponge_org_co1_2.jpg" />
+    <Content Include="images\spiro_co1.jpg" />
+    <Content Include="images\stovesbrand.PNG" />
+    <Content Include="images\switchscale_co1.jpg" />
+    <Content Include="images\top_10_kitchen_appliances_brands_7694_636_458.png" />
+    <Content Include="images\twitter.png" />
+    <Content Include="images\wall-ovens-12g.jpg" />
+    <Content Include="images\windsor_banner.jpg" />
+    <Content Include="images\y-rack_grn_co1.jpg" />
+    <Content Include="images\zanussibrands.PNG" />
+    <Content Include="js\indexjs1.js" />
+    <Content Include="js\indexjs2.js" />
+    <Content Include="js\indexjs3.js" />
+    <Content Include="js\indexjs4.js" />
+    <Content Include="js\indexjs5.js" />
+    <Content Include="js\indexjs6.js" />
+    <Content Include="js\jquery.googlemap.js" />
+    <Content Include="js\js.js" />
+    <Content Include="Product_detail.aspx" />
+    <Content Include="Register.aspx" />
     <Content Include="Web.config" />
+    <Content Include="Default.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gallery.aspx.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery.aspx.designer.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Product_detail.aspx.cs">
+      <DependentUpon>Product_detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Product_detail.aspx.designer.cs">
+      <DependentUpon>Product_detail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="css\_vti_cnf\" />
+    <Folder Include="images\Kitchen Appliances_files\" />
+    <Folder Include="images\_vti_cnf\" />
+    <Folder Include="js\_vti_cnf\" />
     <Folder Include="Models\" />
+    <Folder Include="themes\css\" />
+    <Folder Include="themes\images\" />
+    <Folder Include="themes\js\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

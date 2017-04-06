@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="C05027_kitchen.Site1" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Kitchen Appliances</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<!-- bootstrap -->
+		<link href="css/bootstrap1.css" rel="stylesheet"/>      
+		<link href="css/bootstrap2.css" rel="stylesheet"/>
+		
+		<link href="css/bootstrapindexpage.css" rel="stylesheet"/>
+		
+		<!--style-->
+		<link href="css/indexslider.css" rel="stylesheet"/>
+		<link href="css/indexmain.css" rel="stylesheet"/>
+
+		<!-- scripts -->
+		<script src="js/indexjs1.js"></script>
+		<script src="js/indexjs2.js"></script>				
+		<script src="js/indexjs3.js"></script>	
+		<script src="js/indexjs4.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+   
+    </asp:ContentPlaceHolder>
+
+
+    
+        <div id="top-bar" class="container">
+		<div class="row">
+		<div class="span4">
+					<form method="POST" class="search_form">
+						<input type="text" class="input-block-level search-query" Placeholder="eg. Kitchen Appliances"/>
+					</form>
+				</div>
+				<div class="span8">
+					<div class="account pull-right">
+						<ul class="user-menu">				
+							<li><a href="Register.aspx">My Account</a></li>
+							<li><a href="Cart.aspx">Your Cart</a></li>
+							<li><a href="Cart.aspx">Checkout</a></li>					
+							<li><a href="Register.aspx">Login</a></li>	
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+    
+    
+		<div id="wrapper" class="container">
+			<div class="navbar-main-menu" style="left: 0px; top: 17px">
+				<div class="navbar-inner main-menu">				
+					<a href="Default.aspx" class="logo pull-left">
+					<img src="images/index.jpg" alt="logo" height="33"></a>
+					<nav id="menu" class="pull-right">
+
+					<ul>
+															
+							<li><a href="./Gallery.aspx">Kitchen</a></li>			
+							<li><a href="./Gallery.aspx">Utensils</a>
+								<ul>									
+									<li><a href="./Gallery.aspx">mashers ricers and steamers</a></li>
+									<li><a href="./Gallery.aspx">weighing-and-measuring</a></li>
+									<li><a href="./Gallery.aspx">Disk Rack</a></li>
+									<li><a href="./Gallery.aspx">brushes and sponges</a></li>
+									<li><a href="./Gallery.aspx">Chopping Board</a></li>
+									<li><a href="./Gallery.aspx">Kitchen Utensils</a></li>
+
+									
+
+								</ul>
+							</li>							
+							<li><a href="./Gallery.aspx">Range</a></li>
+							<li><a href="./Gallery.aspx">Best Seller</a></li>
+							<li><a href="./Gallery.aspx">Top Seller</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+          
+    </head>
+        <body>
+             <form id="form1" runat="server">
+   
+        <asp:ContentPlaceHolder id="BodyContent" runat="server">
+         
+            </asp:ContentPlaceHolder>
+            
+        <asp:ContentPlaceHolder id="Footer" runat="server">
+       
+              </asp:ContentPlaceHolder>'
+        
+            
+    
+    </form>
+</body>
+</html>
