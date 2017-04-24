@@ -1112,7 +1112,6 @@ input[type=radio], input[type=checkbox] {
 }
 
 input[type=file], input[type=image], input[type=submit], input[type=reset], input[type=button], input[type=radio], input[type=checkbox] {
-  width: auto;
 }
 
 select, input[type=file] {

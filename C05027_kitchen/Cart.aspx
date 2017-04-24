@@ -185,7 +185,7 @@
 					<div class="span3">
 						<h4>Navigation</h4>
 						<ul class="nav">
-							<li><a href="./Index.aspx">Homepage</a></li>  
+							<li><a href="./Default.aspx">Homepage</a></li>  
 							<li><a href="./Gallery.aspx">Gallery</a></li>
 							<li><a href="./Contact.aspx">Contact Us</a></li>
 							<li><a href="./Cart.aspx">Your Cart</a></li>

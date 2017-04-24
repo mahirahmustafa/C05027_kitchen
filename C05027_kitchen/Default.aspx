@@ -41,8 +41,8 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>
-														<p><a href="Product_detail.html"><img src="images/0457598_PE605377_S3.JPG" alt="lufig" /></a></p>
-														<a href="Product_detail.html" class="title">LUFTIG Exhaust hood, Stainless steel </a><br/>
+														<p><a href="Product_detail.aspx"><img src="images/0457598_PE605377_S3.JPG" alt="lufig" /></a></p>
+														<a href="Product_detail.aspx" class="title">LUFTIG Exhaust hood, Stainless steel </a><br/>
 														<a href="Gallery.aspx" class="category">Extractor hoods and filters</a>
 														<p class="price">$399.00</p>
 													</div>
@@ -50,24 +50,24 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>
-														<p><a href="Product_detail.html"><img src="images/0324893_PE517257_S3.JPG" alt="nutid" /></a></p>
-														<a href="Product_detail.html" class="title">NUTID Side-by-side refrigerator</a><br/>
+														<p><a href="Product_detail.aspx"><img src="images/0324893_PE517257_S3.JPG" alt="nutid" /></a></p>
+														<a href="Product_detail.aspx" class="title">NUTID Side-by-side refrigerator</a><br/>
 														<a href="Gallery.aspx" class="category">Refrigerator</a>
 														<p class="price">$1,799.00</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="Product_detail.html"><img src="images/0336830_PE528022_S3.JPG" alt="renlig" /></a></p>
-														<a href="product_detail.html" class="title"> RENLIG Built-in dishwasher with 3 fronts</a><br/>
+														<p><a href="Product_detail.aspx"><img src="images/0336830_PE528022_S3.JPG" alt="renlig" /></a></p>
+														<a href="product_detail.aspx" class="title"> RENLIG Built-in dishwasher with 3 fronts</a><br/>
 														<a href="Gallery.aspx" class="category">Dishwasher</a>
 														<p class="price">$988.99</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="Product_detail.html"><img src="images/0307960_PE427952_S3.JPG" alt="nutid" /></a></p>
-														<a href="Product_detail.html" class="title">NUTID Slide-in range with ceramic cooktop</a><br/>
+														<p><a href="Product_detail.aspx"><img src="images/0307960_PE427952_S3.JPG" alt="nutid" /></a></p>
+														<a href="Product_detail.aspx" class="title">NUTID Slide-in range with ceramic cooktop</a><br/>
 														<a href="Gallery.aspx" class="category">Cooktop</a>
 														<p class="price">$1,099.00</p>
 													</div>
@@ -78,32 +78,32 @@
 											<ul class="thumbnails">
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="Product_detail.html"><img src="images/Dispatcher.jpg" alt="ge profile" /></a></p>
-														<a href="Product_detail.html" class="title">GE PROFILE series 30"</a><br/>
+														<p><a href="Product_detail.aspx"><img src="images/Dispatcher.jpg" alt="ge profile" /></a></p>
+														<a href="Product_detail.aspx" class="title">GE PROFILE series 30"</a><br/>
 														<a href="Gallery.aspx" class="category">Warming Drawer</a>
 														<p class="price">$890.00</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="Product_detail.html"><img src="images/freezer.jpg" alt="ge energy" /></a></p>
-														<a href="Product_detail.html" class="title">GE ENERGY Star 10.6 cu ft.manual defrost</a><br/>
+														<p><a href="Product_detail.aspx"><img src="images/freezer.jpg" alt="ge energy" /></a></p>
+														<a href="Product_detail.aspx" class="title">GE ENERGY Star 10.6 cu ft.manual defrost</a><br/>
 														<a href="Gallery.aspx" class="category">Chest Freezer</a>
 														<p class="price">$1,900.00</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="Product_detail.html"><img src="images/0340632_PE527646_S3.JPG" alt="nutid" /></a></p>
-														<a href="Product_detail.html" class="title">NUTID Microwave Owen</a><br/>
+														<p><a href="Product_detail.aspx"><img src="images/0340632_PE527646_S3.JPG" alt="nutid" /></a></p>
+														<a href="Product_detail.aspx" class="title">NUTID Microwave Owen</a><br/>
 														<a href="Gallery.aspx" class="category">Microwave Owen</a>
 														<p class="price">$699.99</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="Product_detail.html"><img src="images/elevate-4pc-kitchen-tool-set-multi-co1_1.jpg" alt="elevate" /></a></p>
-														<a href="Product_detail.html" class="title">Elevate set 4-pieces kitchen utensils set</a><br/>
+														<p><a href="Product_detail.aspx"><img src="images/elevate-4pc-kitchen-tool-set-multi-co1_1.jpg" alt="elevate" /></a></p>
+														<a href="Product_detail.aspx" class="title">Elevate set 4-pieces kitchen utensils set</a><br/>
 														<a href="Gallery.aspx" class="category">Kitchen Utensils</a>
 														<p class="price">$35.50</p>
 													</div>
@@ -130,32 +130,32 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>
-														<p><a href="Product_detail.html"><img src="images/spiro_co1.jpg" alt="spiro" /></a></p>
-														<a href="Product_detail.html" class="title">Spiro, 3 in 1 hand held spiralizer</a><br/>
+														<p><a href="Product_detail.aspx"><img src="images/spiro_co1.jpg" alt="spiro" /></a></p>
+														<a href="Product_detail.aspx" class="title">Spiro, 3 in 1 hand held spiralizer</a><br/>
 														<a href="Gallery.aspx" class="category">mashers-ricers-and-steamers</a>
 														<p class="price">$25.50</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="Product_detail.html"><img src="images/nest_9_plus_co1_1.jpg" alt="nesting bowl" /></a></p>
-														<a href="Product_detail.html" class="title">Nesting bowl set </a><br/>
+														<p><a href="Product_detail.aspx"><img src="images/nest_9_plus_co1_1.jpg" alt="nesting bowl" /></a></p>
+														<a href="Product_detail.aspx" class="title">Nesting bowl set </a><br/>
 														<a href="Gallery.aspx" class="category">weighing-and-measuring</a>
 														<p class="price">$17.55</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="Product_detail.html"><img src="images/y-rack_grn_co1.jpg" alt="disk rack" /></a></p>
-														<a href="Product_detail.html" class="title">2-tier self-draining dish rackk</a><br/>
+														<p><a href="Product_detail.aspx"><img src="images/y-rack_grn_co1.jpg" alt="disk rack" /></a></p>
+														<a href="Product_detail.aspx" class="title">2-tier self-draining dish rackk</a><br/>
 														<a href="Gallery.aspx" class="category">Disk Rack</a>
 														<p class="price">$25.30</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="Product_detail.html"><img src="images/soapy_sponge_org_co1_2.jpg" alt="soap" /></a></p>
-														<a href="Product_detail.html" class="title">Soap dispensing dish sponge</a><br/>
+														<p><a href="Product_detail.aspx"><img src="images/soapy_sponge_org_co1_2.jpg" alt="soap" /></a></p>
+														<a href="Product_detail.aspx" class="title">Soap dispensing dish sponge</a><br/>
 														<a href="Gallery.aspx" class="category">brushes and sponges</a>
 														<p class="price">$25.60</p>
 													</div>
@@ -166,32 +166,32 @@
 											<ul class="thumbnails">
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="Product_detail.html"><img src="images/chop2pot_lrg_grn_co1_1.jpg" alt="board" /></a></p>
-														<a href="Product_detail.html" class="title">The original Folding Chopping Board</a><br/>
+														<p><a href="Product_detail.aspx"><img src="images/chop2pot_lrg_grn_co1_1.jpg" alt="board" /></a></p>
+														<a href="Product_detail.aspx" class="title">The original Folding Chopping Board</a><br/>
 														<a href="Gallery.aspx" class="category">Chopping Board</a>
 														<p class="price">$45.50</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="Product_detail.html"><img src="images/switchscale_co1.jpg" alt="scale" /></a></p>
-														<a href="Product_detail.html" class="title">2 in 1 digital scale</a><br/>
+														<p><a href="Product_detail.aspx"><img src="images/switchscale_co1.jpg" alt="scale" /></a></p>
+														<a href="Product_detail.aspx" class="title">2 in 1 digital scale</a><br/>
 														<a href="Gallery.aspx" class="category">weighing-and-measuring</a>
 														<p class="price">$33.50</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="Product_detail.html"><img src="images/elevate-knives---100-collection---group-shot-shadow_1.jpg" alt="utensils" /></a></p>
-														<a href="product_detail.html" class="title">6 pieces kitchen utensils set with stand</a><br/>
+														<p><a href="Product_detail.aspx"><img src="images/elevate-knives---100-collection---group-shot-shadow_1.jpg" alt="utensils" /></a></p>
+														<a href="product_detail.aspx" class="title">6 pieces kitchen utensils set with stand</a><br/>
 														<a href="Gallery.aspx" class="category">Kitchen Utensils</a>
 														<p class="price">$45.30</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="Product_detail.html"><img src="images/kitchen-beauteous-kitchen-appliances-.jpg" alt="utensils" /></a></p>
-														<a href="Product_detail.html" class="title">kitchen Utensils set</a><br/>
+														<p><a href="Product_detail.aspx"><img src="images/kitchen-beauteous-kitchen-appliances-.jpg" alt="utensils" /></a></p>
+														<a href="Product_detail.aspx" class="title">kitchen Utensils set</a><br/>
 														<a href="Gallery.aspx" class="category">KItchen Utensils</a>
 														<p class="price">$250.20</p>
 													</div>
@@ -263,7 +263,7 @@
 					<div class="span3">
 						<h4>Navigation</h4>
 						<ul class="nav">
-							<li><a href="./Index.aspx">Homepage</a></li>  
+							<li><a href="./Default.aspx">Homepage</a></li>  
 							<li><a href="./Gallery.aspx">Gallery</a></li>
 							<li><a href="./Contact.aspx">Contact Us</a></li>
 							<li><a href="./Cart.aspx">Your Cart</a></li>

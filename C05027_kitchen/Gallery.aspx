@@ -14,17 +14,17 @@
 							<li class="span3">
 								<div class="product-box">
 									<span class="sale_tag"></span>												
-									<a href="Product_detail.html"><img alt="Refrigerator" src="images/1998.jpg"/></a><br/>
+									<a href="Product_detail.aspx"><img alt="Refrigerator" src="images/1998.jpg"/></a><br/>
 									<br>
-									<a href="Product_detail.html" class="title">28.07 cu. ft. French Door Refrigerator in Black Stainless Steel</a><br/>
+									<a href="Product_detail.aspx" class="title">28.07 cu. ft. French Door Refrigerator in Black Stainless Steel</a><br/>
 									<a href="#" class="category">Refrigerator</a>
 									<p class="price">$1998</p>
 								</div>
 							</li>       
 							<li class="span3">
 								<div class="product-box">												
-									<a href="Product_detail.html"><img alt="Appliances package" src="images/electrical-tandoor-250x250.jpg"/></a><br/>
-									<a href="Product_detail.html" class="title">Electrical Tandoor </a><br/>
+									<a href="Product_detail.aspx"><img alt="Appliances package" src="images/electrical-tandoor-250x250.jpg"/></a><br/>
+									<a href="Product_detail.aspx" class="title">Electrical Tandoor </a><br/>
 									<a href="#" class="category">Appliances package</a>
 									<p class="price">$4000</p>
 								</div>
@@ -32,8 +32,8 @@
 							<li class="span3">
 								<div class="product-box">
 									<span class="sale_tag"></span>												
-									<a href="Product_detail.html"><img alt="Appliances package" src="images/7596.jpg"/></a><br/>
-									<a href="Product_detail.html" class="title">LG Black Stainless Suite</a><br/>
+									<a href="Product_detail.aspx"><img alt="Appliances package" src="images/7596.jpg"/></a><br/>
+									<a href="Product_detail.aspx" class="title">LG Black Stainless Suite</a><br/>
 									<a href="#" class="category">Appliances package</a>
 									<p class="price">$7231</p>
 								</div>
@@ -41,8 +41,8 @@
 							<li class="span3">
 								<div class="product-box">												
 									<span class="sale_tag"></span>
-									<a href="Product_detail.html"><img alt="Appliances package" src="images/ez-egg-cracker-250x250.jpg"/></a><br/>
-									<a href="Product_detail.html" class="title">Egg Cracker </a><br/>
+									<a href="Product_detail.aspx"><img alt="Appliances package" src="images/ez-egg-cracker-250x250.jpg"/></a><br/>
+									<a href="Product_detail.aspx" class="title">Egg Cracker </a><br/>
 									<a href="#" class="category">Appliances package</a>
 									<p class="price">$8.00</p>
 								</div>
@@ -50,8 +50,8 @@
 							<li class="span3">
 								<div class="product-box">												
 									<span class="sale_tag"></span>
-									<a href="Product_detail.html"><img alt="Appliances package" src="images/popcorn-maker-250x250.jpg"/></a><br/>
-									<a href="Product_detail.html" class="title">PopCorn Maker</a><br/>
+									<a href="Product_detail.aspx"><img alt="Appliances package" src="images/popcorn-maker-250x250.jpg"/></a><br/>
+									<a href="Product_detail.aspx" class="title">PopCorn Maker</a><br/>
 									<a href="#" class="category">Appliances package</a>
 									<p class="price">$13.00</p>
 								</div>
@@ -59,8 +59,8 @@
 							<li class="span3">
 								<div class="product-box">												
 									<span class="sale_tag"></span>
-									<a href="Product_detail.html"><img alt="Appliances package" src="images/sandwich-maker-250x250.jpg"/></a><br/>
-									<a href="Product_detail.html" class="title">Sandwich Maker </a><br/>
+									<a href="Product_detail.aspx"><img alt="Appliances package" src="images/sandwich-maker-250x250.jpg"/></a><br/>
+									<a href="Product_detail.aspx" class="title">Sandwich Maker </a><br/>
 									<a href="#" class="category">Appliances package</a>
 									<p class="price">$14.30</p>
 								</div>
@@ -68,8 +68,8 @@
 							<li class="span3">
 								<div class="product-box">												
 									<span class="sale_tag"></span>
-									<a href="Product_detail.html"><img alt="Appliances package" src="images/pizza-maker-250x250.jpg"/></a><br/>
-									<a href="Product_detail.html" class="title">Pizza Maker </a><br/>
+									<a href="Product_detail.aspx"><img alt="Appliances package" src="images/pizza-maker-250x250.jpg"/></a><br/>
+									<a href="Product_detail.aspx" class="title">Pizza Maker </a><br/>
 									<a href="#" class="category">Appliances package</a>
 									<p class="price">$51.89</p>
 								</div>
@@ -77,8 +77,8 @@
 							<li class="span3">
 								<div class="product-box">												
 									<span class="sale_tag"></span>
-									<a href="Product_detail.html"><img alt="Appliances package" src="images/juicer-mixer-grinder-250x250.jpg"/></a><br/>
-									<a href="Product_detail.html" class="title">Juice Mixer Grinder </a><br/>
+									<a href="Product_detail.aspx"><img alt="Appliances package" src="images/juicer-mixer-grinder-250x250.jpg"/></a><br/>
+									<a href="Product_detail.aspx" class="title">Juice Mixer Grinder </a><br/>
 									<a href="#" class="category">Appliances package</a>
 									<p class="price">$19.47</p>
 								</div>
@@ -86,8 +86,8 @@
 							<li class="span3">
 								<div class="product-box">												
 									<span class="sale_tag"></span>
-									<a href="Product_detail.html"><img alt="Appliances package" src="images/chef-multi-cooker-250x250.jpg"></a><br/>
-									<a href="Product_detail.html" class="title">Chef Multi Cooker </a><br/>
+									<a href="Product_detail.aspx"><img alt="Appliances package" src="images/chef-multi-cooker-250x250.jpg"/></a><br/>
+									<a href="Product_detail.aspx" class="title">Chef Multi Cooker </a><br/>
 									<a href="#" class="category">Appliances package</a>
 									<p class="price">$125.00</p>
 								</div>
@@ -109,7 +109,7 @@
 						<div class="block">	
 							<ul class="nav nav-list">
 								<li class="nav-header">SUB CATEGORIES</li>
-								<li><a href="Product.html">mashers ricers and steamers</a></li>
+								<li><a href="Gallery.aspx">mashers ricers and steamers</a></li>
 								<li class="active"><a href="Gallery.aspx">weighing-and-measuring</a></li>
 								<li><a href="Gallery.aspx">Disk Rack</a></li>
 								<li><a href="Gallery.aspx">brushes and sponges</a></li>
@@ -140,7 +140,7 @@
 												<div class="product-box">
 													<span class="sale_tag"></span>												
 													<img alt="spiro" src="images/spiro_co1.jpg"/><br/>
-													<a href="product_detail.html" class="title">Spiro, 3 in 1 hand held spiralizer</a><br/>
+													<a href="product_detail.aspx" class="title">Spiro, 3 in 1 hand held spiralizer</a><br/>
 													<a href="#" class="category">mashers-ricers-and-steamers</a>
 													<p class="price">$25.50</p>
 												</div>
@@ -151,8 +151,8 @@
 										<ul class="thumbnails listing-products">
 											<li class="span3">
 												<div class="product-box">																	<span class="sale_tag"></span>												
-													<a href="product_detail.html"><img alt="nesting bowl" src="images/nest_9_plus_co1_1.jpg"/></a><br/>
-													<a href="product_detail.html" class="title">Nesting Bowl</a><br/>
+													<a href="product_detail.aspx"><img alt="nesting bowl" src="images/nest_9_plus_co1_1.jpg"/></a><br/>
+													<a href="product_detail.aspx" class="title">Nesting Bowl</a><br/>
 													<a href="#" class="category">Kitchen Utensils</a>
 													<p class="price">$261</p>
 												</div>
@@ -164,7 +164,7 @@
 											<li class="span3">
 												<div class="product-box">												
 													<img alt="Disk Rack" src="images/y-rack_grn_co1.jpg"/><br/>
-													<a href="product_detail.html" class="title">2-tier self-draining dish rackk</a><br/>
+													<a href="product_detail.aspx" class="title">2-tier self-draining dish rackk</a><br/>
 													<a href="#" class="category">Disk Rack</a>
 													<p class="price">$25.30</p>
 												</div>
@@ -207,7 +207,7 @@
 					<div class="span3">
 						<h4>Navigation</h4>
 						<ul class="nav">
-							<li><a href="./Index.aspx">Homepage</a></li>  
+							<li><a href="./Default.aspx">Homepage</a></li>  
 							<li><a href="./Gallery.aspx">Gallery</a></li>
 							<li><a href="./Contact.aspx">Contact Us</a></li>
 							<li><a href="./Cart.aspx">Your Cart</a></li>
