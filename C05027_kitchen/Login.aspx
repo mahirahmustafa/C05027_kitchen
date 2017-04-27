@@ -1,30 +1,33 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Register1.aspx.cs" Inherits="C05027_kitchen.login1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="C05027_kitchen.login1"EnableEventValidation="false" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
      <section class="header_text sub">
-	<img class="pageBanner" src="images/kitchen-appliances-banner.jpg" alt="banner"/>
+	<img class="pageBanner" src="images/kitchen-appliances-banner.jpg" alt="banner"/><a href="Login.aspx">Login</a>
          </section>
          <div class="container">
 <div class="main">
 <form class="form" method="post" action="#">
 <h2>LOGIN</h2>
-<label>Name :</label>
-<input type="text" name="dname" id="name"/>
-<label>Email :</label>
-<input type="text" name="demail" id="email"/>
-<label>Password :</label>
-<input type="password" name="password" id="password"/>
-<label>Confirm Password :</label>
-<input type="password" name="cpassword" id="cpassword"/>
-<input type="button" name="register" id="register" value="Register"/>
+&nbsp;
+<label>Email :<asp:TextBox ID="txtLoginEmail" runat="server"></asp:TextBox>
+    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtLoginEmail" ErrorMessage="please fill ur email" ForeColor="#CC0000"></asp:RequiredFieldValidator>
+    </label>
+&nbsp;
+<label>Password :<asp:TextBox ID="txtLoginPassword" runat="server"></asp:TextBox>
+    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtLoginPassword" ErrorMessage="please fill ur password" ForeColor="#CC0000"></asp:RequiredFieldValidator>
+    <br />
+    <asp:Button ID="btnLogin" runat="server" OnClick="btnLogin_Click" Text="Login " />
+    <asp:Literal ID="LitLoginError" runat="server"></asp:Literal>
+    </label>
+&nbsp;&nbsp;
 </form>
 </div>
 </div>
    
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="Footer" runat="server">
-<section id="footer-bar">
+    <section id="footer-bar">
 				<div class="row">
 					<div class="span3">
 						<h4>Navigation</h4>
@@ -51,7 +54,6 @@
 				<span>Copyright 2017 mahirah All right reserved.</span>
 			</div>
 	
-		</div>
 		<script src="js/indexjs5.js"></script>
 		<script src="js/indexjs6.js"></script>
 
@@ -63,6 +65,5 @@
 				})
 			});
 		</script>	
-    </body>
-</html>
+    
 </asp:Content>

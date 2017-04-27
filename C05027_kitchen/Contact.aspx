@@ -1,24 +1,27 @@
 ﻿
 <%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="C05027_kitchen.Contact" EnableEventValidation="false" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .auto-style1 {
+            width: 564px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
           
              <div id="map" style="width:100%;height:500px"></div>
 
 <script>
-function myMap() {
-  var mapCanvas = document.getElementById("map");
-  var myCenter = new google.maps.LatLng(4.945620,114.947180
-); 
-  var mapOptions = {center: myCenter, zoom: 15};
-  var map = new google.maps.Map(mapCanvas,mapOptions);
-  var marker = new google.maps.Marker({
-    position: myCenter,
-    icon: "images.jpg"
-  });
-  marker.setMap(map);
+    function myMap() {
+        var myCenter = new google.maps.LatLng(4.945620, 114.947180);
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = { center: myCenter, zoom: 5 };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+        var marker = new google.maps.Marker({ position: myCenter });
+        marker.setMap(map);
 }
+
+
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQTysMSKEzEBy4BxwscrMvlnmV7cqWeaA &callback=myMap"></script>
 
@@ -58,22 +61,27 @@ function myMap() {
                                     <div class="clearfix">
                                         &nbsp;<div class="input">
                                             &nbsp;name<asp:TextBox ID="txtname" runat="server"></asp:TextBox>
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtname" ErrorMessage="please field ur name" ForeColor="#CC0000"></asp:RequiredFieldValidator>
                                             <br />
                                         </div>
                                     </div>
 
                                     <div class="clearfix">
                                         <br />
-                                        contact<asp:TextBox ID="txtcontact" runat="server" Width="400"></asp:TextBox>
+                                        contact No<asp:TextBox ID="txtcontact" runat="server" Width="171px"></asp:TextBox>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtcontact" ErrorMessage="please fill ur contact no" ForeColor="#CC0000"></asp:RequiredFieldValidator>
                                         <br />
-                                        email<asp:TextBox ID="txtemail" runat="server"></asp:TextBox>
+                                        email<asp:TextBox ID="txtemail" runat="server" Width="254px"></asp:TextBox>
+                                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="please fill ur email (@gmail.com)" ForeColor="Red"
+                                        ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="txtemail"></asp:RegularExpressionValidator>
                                     </div>
 
                                     <div class="clearfix">
                                         <label for="message"><span>Message:</span></label>
-                                        <div class="input">
+                                        <div class="auto-style1">
                                             &nbsp;<asp:TextBox ID="txtmessage" runat="server" TextMode="MultiLine"
-                                                Width="400px" Height="200px"></asp:TextBox>
+                                                Width="400px" Height="200px" OnTextChanged="txtmessage_TextChanged"></asp:TextBox>
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtmessage" ErrorMessage="please fill ur message" ForeColor="#CC0000"></asp:RequiredFieldValidator>
                                             <br />
                                             <br />
                                             <br />

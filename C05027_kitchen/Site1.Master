@@ -45,7 +45,7 @@
 							<li><a href="Register.aspx">My Account</a></li>
 							<li><a href="Cart.aspx">Your Cart</a></li>
 							<li><a href="Cart.aspx">Checkout</a></li>					
-							<li><a href="Register.aspx">Login</a></li>	
+							<li><a href="Login.aspx">Login</a></li>	
 						</ul>
 					</div>
 				</div>

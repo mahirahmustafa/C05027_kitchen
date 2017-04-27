@@ -17,7 +17,7 @@ namespace C05027_kitchen
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
 
@@ -30,7 +30,7 @@ namespace C05027_kitchen
                 //Sender e-mail address.
                 Msg.From = new MailAddress(txtemail.Text);
                 //Recipient e-mail address.
-                Msg.To.Add("sender@gmail.com");
+                Msg.To.Add("mahirahmustafa312@gmail.com");
                 //Meaages Subject
                 Msg.Subject = "Contact Us Form-KitchenAppliances";
                 StringBuilder sb = new StringBuilder();
@@ -43,11 +43,18 @@ namespace C05027_kitchen
                 // SMTP server IP.
                 SmtpClient smtp = new SmtpClient();
                 smtp.Host = "smtp.gmail.com";
-                smtp.Port = 25;
-                smtp.Credentials = new System.Net.NetworkCredential("sender@gmail.com", "password");
+                smtp.Port = 587;
+                smtp.Credentials = new System.Net.NetworkCredential("mahirahmustafa312@gmail.com", "mahirah312_");
+
                 smtp.EnableSsl = true;
                 smtp.Send(Msg);
-                //Mail Message
+                
+
+
+            }
+            catch (Exception ex)
+            {
+                Response.Write(ex.Message);
                 Response.Write("<Script>alert('Thanks for contact us,our team will be contact you as soon as possible')</Script>");
                 // Clear the textbox values
                 txtname.Text = "";
@@ -55,10 +62,11 @@ namespace C05027_kitchen
                 txtemail.Text = "";
                 txtmessage.Text = "";
             }
-            catch (Exception ex)
-            {
-                Response.Write(ex.Message);
-            }
+        }
+
+        protected void txtmessage_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
