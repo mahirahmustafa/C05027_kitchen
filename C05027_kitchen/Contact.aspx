@@ -56,7 +56,7 @@
                         </div>
                         <div class="span7">
                             <p>HAVE A QUESTION FOR US?Drop us message and we will reply within 2 working days.<br/>Contact us now!.</p>
-                            <form method="post" action="#">
+                            
                                 <fieldset>
                                     <div class="clearfix">
                                         &nbsp;<div class="input">
@@ -65,7 +65,7 @@
                                             <br />
                                         </div>
                                     </div>
-
+                                    
                                     <div class="clearfix">
                                         <br />
                                         contact No<asp:TextBox ID="txtcontact" runat="server" Width="171px"></asp:TextBox>
@@ -83,6 +83,7 @@
                                                 Width="400px" Height="200px" OnTextChanged="txtmessage_TextChanged"></asp:TextBox>
                                             <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtmessage" ErrorMessage="please fill ur message" ForeColor="#CC0000"></asp:RequiredFieldValidator>
                                             <br />
+                                        
                                             <br />
                                             <br />
                                             <br />
@@ -92,14 +93,12 @@
                                     <div class="actions">
                                         <asp:Button ID="btnContactSubmit" runat="server"
                                             OnClick="btnSubmit_Click" Text="Send" />
-                                        <table width="600px" align="center">
-                                            <tr>
-                                                <td>&nbsp;</td>
-                                            </tr>
-                                        </table>
+                                       
+                                           
+                                       
                                     </div>
                                 </fieldset>
-                            </form>
+                            
                         </div>
                     </div>
                 </section>
@@ -131,6 +130,9 @@
                 <div id="copyright">
                     <span>Copyright 2017 mahirah All right reserved.</span>
                 </div>
+     <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
+                    <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a>
+
 
 
 		<script src="js/indexjs5.js"></script>

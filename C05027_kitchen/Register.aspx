@@ -86,6 +86,7 @@
 							<li><a href="#">Order History</a></li>
 							<li><a href="#">Wish List</a></li>
 							<li><a href="#">Newsletter</a></li>
+
 						</ul>
 					</div>					
 				</div>	
@@ -93,6 +94,9 @@
 			<div id="copyright">
 				<span>Copyright 2017 mahirah All right reserved.</span>
 			</div>
+     <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
+                  
+                    <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a>
 	
 		</div>
 		<script src="js/indexjs5.js"></script>

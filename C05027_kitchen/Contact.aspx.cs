@@ -50,7 +50,7 @@ namespace C05027_kitchen
                 smtp.Send(Msg);
                 
 
-
+                
             }
             catch (Exception ex)
             {

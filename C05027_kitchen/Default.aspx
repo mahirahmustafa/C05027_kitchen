@@ -202,8 +202,8 @@
 								</div>
 							</div>						
 						</div>
-						<br>
-						<br>
+						
+					
 						<div class="row feature_box">						
 							<div class="span4">
 								<div class="service">
@@ -283,7 +283,12 @@
 			</section>
 			<div id="copyright">
 				<span>Copyright 2017 mahirah All right reserved.</span>
+
 			</div>
+                     <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
+                    
+                    <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a>
+
 		</div>
 		<script src="js/indexjs5.js"></script>
 		<script src="js/indexjs6.js"></script>
@@ -303,8 +308,6 @@
 		</script>
 	
 		
-    </body>
-</html>
 
 
 

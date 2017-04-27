@@ -6,7 +6,7 @@
 	
 									
 			<section class="header_text sub">
-			<img class="pageBanner" src="images/windsor_banner.jpg" alt="New products" >
+			<img class="pageBanner" src="images/windsor_banner.jpg" alt="New products" />
 				<h4><span>Shopping Cart</span></h4>
 			</section>
 			<section class="main-content">				
@@ -206,6 +206,9 @@
 			<div id="copyright">
 				<span>Copyright 2017 mahirah All right reserved.</span>
 			</div>
+     <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
+                    
+                    <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a>
 	
 		</div>
 		<script src="js/indexjs5.js"></script>
